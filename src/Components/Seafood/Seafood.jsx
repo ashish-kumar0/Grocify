@@ -6,7 +6,7 @@ import BgSeaFood from '../../assets/seafood-banner.jpg'
 const Seafood = () => {
   return (
     <div>
-        <CatogeryPages title="Meat & SeaFood" bgImage={BgSeaFood} categories={'SeaFood'}/>
+        <CatogeryPages title="Meat & SeaFood" bgImage={BgSeaFood} categories={['SeaFood']}/>
     </div>
   )
 }

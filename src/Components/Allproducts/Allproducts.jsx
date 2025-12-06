@@ -5,7 +5,7 @@ const Allproducts = () => {
   return (
     <div>
         <CatogeryPages title="All Products" bgImage={Bgall} categories={[
-            
+            'All'
         ]}/>
     </div>
   )
