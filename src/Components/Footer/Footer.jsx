@@ -1,5 +1,7 @@
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="bg-zinc-200 py-20">
@@ -24,7 +26,7 @@ const Footer = () => {
                 <h5 className="text-zinc-800 text-2xl font-bold">Company</h5>
             </li>
             <li className="mt-6">
-                <a href="#" className="text-zinc-800 hover:text-orange-500 ">About</a>
+                <Link to="/about" className="text-zinc-800 hover:text-orange-500 ">About</Link>
             </li>
             <li className="mt-6">
                 <a href="#" className="text-zinc-800 hover:text-orange-500 ">FAQ</a>

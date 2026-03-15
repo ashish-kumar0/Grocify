@@ -6,6 +6,7 @@ import Dairy from "./Components/Dairy/Dairy";
 import Seafood from "./Components/Seafood/Seafood";
 import Allproducts from "./Components/Allproducts/Allproducts";
 import Layout from "./Components/Navbar/Layout/Layout";
+import About from "./Components/About/About";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -16,6 +17,10 @@ const App = () => {
         {
           path: '/',
           element: <Home/>,
+        },
+        {
+          path: "/about",
+          element: <About />,
         },
         {
           path: "/fruits",
